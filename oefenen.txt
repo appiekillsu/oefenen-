@@ -1,0 +1,29 @@
+SELECT Sector, Warmtepompen, Perioden, Aantal_in_gebruik_genomen
+FROM warmtepompen;
+
+
+SELECT Sector, Warmtepompen, Perioden, Aantal_in_gebruik_genomen
+FROM warmtepompen
+WHERE Perioden >= 2010;
+
+SELECT Sector, Warmtepompen, Perioden, Aantal_in_gebruik_genomen
+FROM warmtepompen
+WHERE Perioden >= 2010;
+
+SELECT *
+FROM warmtepompen
+WHERE Sector = 'Woningen' AND Perioden BETWEEN 2005 AND 2020; 	
+
+SELECT *
+FROM warmtepompen
+WHERE Sector = 'Woningen' AND Warmtepompen = 'Warmtepompen bodemwarmte, open' AND Aantal_in_gebruik_genomen > 1000;
+
+SELECT SUM(Aantal_in_gebruik_genomen) AS Totaal
+FROM warmtepompen
+WHERE Sector = 'Woningen' AND Warmtepompen = 'Buitenluchtwarmte' AND Perioden BETWEEN 2000 AND 2010;
+
+
+SELECT SUM(Aantal_in_gebruik_genomen) AS Totaal_2010_2020,
+       (SUM(Aantal_in_gebruik_genomen) - (SELECT SUM(Aantal_in_gebruik_genomen) FROM warmtepompen WHERE Sector = 'Woningen' AND Warmtepompen = 'Buitenluchtwarmte' AND Perioden BETWEEN 2000 AND 2010)) AS Verschil_met_Query_6
+FROM warmtepompen
+WHERE Sector = 'Woningen' AND Warmtepompen = 'Buitenluchtwarmte' AND Perioden BETWEEN 2010 AND 2020;

@@ -56,9 +56,102 @@ def walk(steps):
 
 ------------------------------------------------------------
 
-
-
 exit a function = return
+
+
+
+
+goed te automatiseren zijn met Python:
+
+Gegevensinvoer en -verwerking: Het automatiseren van gegevensinvoerprocessen kan aanzienlijke tijd besparen. 
+Dit omvat bijvoorbeeld het automatisch invullen van formulieren op websites, het verwerken van e-mails en het invoeren van gegevens in databases of spreadsheets.
+
+
+Rapportgeneratie: Het automatiseren van het genereren van rapporten kan worden bereikt door Python-scripts te schrijven die gegevens uit verschillende bronnen halen, deze analyseren en vervolgens automatisch rapporten produceren in verschillende indelingen, zoals PDF, Excel of HTML.
+
+
+Communicatie: Python kan worden gebruikt om communicatietaken te automatiseren, zoals het verzenden van e-mails, het beheren van chatbots voor klantenservice, het plannen van vergaderingen en het bijwerken van sociale media-accounts.
+
+
+Bestandsbeheer en -organisatie: Python-scripts kunnen worden geschreven om bestandsbeheer- en -organisatietaken te automatiseren, 
+zoals het ordenen van bestanden op basis van bepaalde criteria, het archiveren van bestanden en het synchroniseren van bestanden tussen verschillende apparaten of platforms.
+
+Monitoring en meldingen: Python kan worden gebruikt voor het automatiseren van monitoringtaken, zoals het controleren van serverstatussen, het bewaken van systeemprestaties en het detecteren van abnormale gebeurtenissen. Automatische meldingen kunnen worden ingesteld om waarschuwingen te verzenden wanneer bepaalde drempelwaarden worden overschreden.
+
+Deze automatiseringen kunnen niet alleen de efficiëntie verbeteren, maar ook fouten verminderen die kunnen optreden als gevolg van handmatige tussenkomst.
+
+
+
+
+
+
+Je kunt een programma schrijven in Python dat de inhoud van je koelkast bijhoudt en automatisch nieuwe items bestelt wanneer iets op raakt. Hier is een eenvoudig stappenplan om je op weg te helpen:
+
+Inventariseer de inhoud van je koelkast: Gebruik bijvoorbeeld een lijst in Python om bij te houden welke items je in de koelkast hebt en hoeveel je er nog van hebt.
+
+Stel drempelwaarden in: Bepaal voor elk item een drempelwaarde die aangeeft wanneer je meer moet bestellen. Bijvoorbeeld, als je nog maar één melk over hebt, wil je misschien nieuwe melk bestellen.
+
+Controleer regelmatig de voorraad: Schrijf code die regelmatig de voorraad controleert en kijkt of een item onder de drempelwaarde zit.
+
+Plaats een bestelling: Wanneer een item onder de drempelwaarde zit, laat het programma automatisch een bestelling plaatsen. Dit kan bijvoorbeeld via een API van een online winkel.
+
+Bevestiging en feedback: Zorg ervoor dat je een bevestiging krijgt wanneer een bestelling is geplaatst, en misschien ook een melding wanneer een item is bijgevuld.
+
+Optimalisatie en uitbreiding: Je kunt het programma verder optimaliseren door bijvoorbeeld de mogelijkheid toe te voegen om handmatig voorkeuren in te stellen, zoals merkvoorkeuren of speciale aanbiedingen.
+
+Het automatiseren van dit proces vereist wat programmeerkennis, maar met Python en wat basisvaardigheden in programmeren moet het zeker mogelijk zijn om een eenvoudige versie van zo'n systeem te maken!
+
+
+
+
+
+
+Gebruik een agenda-API: Zoek naar een agenda-API (Application Programming Interface) die je kunt gebruiken om de roosters van je school op te halen. Google Agenda API is een populaire keuze.
+
+Controleer de agenda: Schrijf code om regelmatig je agenda te controleren op geplande evenementen, zoals je eerste les.
+
+Controleer of de les uitvalt: Als de eerste les op een bepaalde dag uitvalt, pas dan de wekkerinstellingen aan. Dit kan betekenen dat je de wektijd aanpast of de wekker helemaal uitschakelt.
+
+Gebruik een wekker-API: Zoek naar een API waarmee je je wekker kunt instellen of aanpassen. Bijvoorbeeld, als je een smartphone gebruikt, 
+kun je de Android AlarmManager API gebruiken voor Android-telefoons of de Apple's iOS Alarm Framework voor iPhones.
+
+Pas de wekker aan: Als de les uitvalt, gebruik dan de wekker-API om de wekkerinstellingen aan te passen volgens je voorkeuren.
+
+Feedback en notificatie: Zorg ervoor dat je een melding krijgt wanneer de wekker is aangepast, zodat je op de hoogte bent van de verandering.
+
+Dit is een basisschets van hoe je dit kunt aanpakken. Het kan enige programmeerervaring vergen, maar met Python en de juiste API-documentatie moet het zeker haalbaar zijn!
+
+
+
+
+Gegevens over stroomtarieven verzamelen: Zoek een bron waar je informatie kunt vinden over stroomtarieven op verschillende tijdstippen. 
+Dit kan bijvoorbeeld een website zijn die realtime tariefgegevens verstrekt of een API die toegang geeft tot deze informatie.
+
+Bepaal goedkope periodes: Analyseer de stroomtarieven om te bepalen wanneer de stroom goedkoop is. Dit kan bijvoorbeeld 's nachts zijn wanneer de vraag laag is.
+
+Schrijf een script om de laadtijden te plannen: Schrijf Python-code die regelmatig de stroomtarieven controleert en beslist of het op dat moment goedkoop genoeg is om je elektrische auto op te laden.
+
+Verbind met je auto en laadinfrastructuur: Gebruik de API van de autofabrikant of van het laadstation om je elektrische auto op te laden wanneer dat nodig is. Dit kan betekenen dat je de laadtijd instelt of de laadopdracht start.
+
+Feedback en notificatie: Zorg ervoor dat je een melding krijgt wanneer je auto begint met opladen, zodat je op de hoogte bent van het proces.
+
+Test en optimaliseer: Test je script en pas het aan indien nodig. Je kunt bijvoorbeeld speelruimte inbouwen voor variabele stroomtarieven of voorkeuren toevoegen voor maximale laadtijd of laadniveaus.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -59,6 +59,35 @@ def walk(steps):
 exit a function = return
 
 
+antwoord user
+-----------------------------------------------------------------
+
+def get_user_choice():
+    print("Please choose an option:")
+    print("1. Option A")
+    print("2. Option B")
+    print("3. Option C")
+
+    while True:
+        choice = input("Enter the number of your choice: ")
+        if choice in ['1', '2', '3']:
+            return choice
+        else:
+            print("Invalid choice. Please enter 1, 2, or 3.")
+
+user_choice = get_user_choice()
+print(f"You chose option {user_choice}")
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
 
 
 goed te automatiseren zijn met Python:
